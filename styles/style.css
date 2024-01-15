@@ -18,10 +18,11 @@ a{
  
 /* nav section styles */
 nav{
-
+    width: 90%;
     display: flex;
     justify-content: space-around;
-    margin-top: 87px;
+    margin: 87px auto 0;
+
 }
 
 nav .log h3{
@@ -83,4 +84,15 @@ nav .menu > ul a{
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+/* sponsor section styles */
+.sponsor{
+    width: 70%;
+    margin: 112px auto 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
